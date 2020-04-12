@@ -1,0 +1,128 @@
+*{
+
+}
+
+.header{
+    font-family: Great Vibes, cursive;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+
+}
+
+.container-1{
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.article{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.left{
+    width: 25%;
+    flex-grow: 1;
+}
+
+.middle{
+    width: 50%;
+    flex-grow: 2;
+}
+
+.right{
+    width: 25%;
+    flex-grow: 1;
+}
+
+
+.article-heading{
+    font-weight: normal;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-style: italic;
+}
+
+.article-text{
+    margin: auto;
+    line-height: 1.2;
+}
+
+.dog-image{
+    height:300px;
+    width: 100%;
+}
+
+.container-2{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.bottom-left{
+    width: 24.5%;
+}
+
+/*.nav-list{
+    width: 75.5%;   
+}*/
+
+.three-quaters{
+    width: 75%;
+    overflow: hidden;
+}
+
+.nav-items{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.list-item{
+    width: 100%;
+    flex: 1;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, .6);
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.list-item a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+}
+
+.list-item:nth-child(1){
+    background-color: sandybrown;
+}
+
+.list-item:nth-child(2){
+    background-color: teal;
+}
+.list-item:nth-child(3){
+    background-color: aqua;
+}
+.list-item:nth-child(4){
+    background-color: cadetblue;
+}
+.list-item:nth-child(5){
+    background-color: grey;
+}
